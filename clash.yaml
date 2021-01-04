@@ -7,9 +7,9 @@ external-controller: :9090
 
 proxies:
   - {name: IIJ 落地98KA, server: 2001:e42:102:1521:160:16:90:182, port: 39617, type: ssr, cipher: rc4-md5, password: Xs5jbr, protocol: origin, obfs: http_simple, obfsparam: download.windowsupdate.com}
-  - {name: 🇷🇺 IPV6 俄罗斯 A 1Gbps 2x, server: 2001:e42:102:1806:160:16:208:83, port: 39617, type: ssr, cipher: rc4-md5, password: Xs5jbr, protocol: origin, obfs: http_simple, obfsparam: download.windowsupdate.com}
-  - {name: NTTPC 落地结算C, server: nttpc03.nurobiz.com, port: 39617, type: ssr, cipher: rc4-md5, password: Xs5jbr, protocol: origin, obfs: http_simple, obfsparam: download.windowsupdate.com}
-  - {name: NTTPC 落地结算D, server: nttpc04.nurobiz.com, port: 39617, type: ssr, cipher: rc4-md5, password: Xs5jbr, protocol: origin, obfs: http_simple, obfsparam: download.windowsupdate.com}
+  - {name: 🇷🇺 IPV6 俄罗斯ver: 2001:e42:102:1806:160:16:208:83, port: 39617, type: ssr, cipher: rc4-md5, password: Xs5jbr, protocol: origin, obfs: http_simple, obfsparam: download.windowsupdate.com}
+  - {name: NTTPC 落地M4结算C, server: nttpc03.nurobiz.com, port: 39617, type: ssr, cipher: rc4-md5, password: Xs5jbr, protocol: origin, obfs: http_simple, obfsparam: download.windowsupdate.com}
+  - {name: NTTPC 落地M762结算D, server: nttpc04.nurobiz.com, port: 39617, type: ssr, cipher: rc4-md5, password: Xs5jbr, protocol: origin, obfs: http_simple, obfsparam: download.windowsupdate.com}
   - {name: 🇭🇰 东落地-001-HGC-196-39000-40000, server: sghk02.nurobiz.com, port: 39617, type: ssr, cipher: rc4-md5, password: Xs5jbr, protocol: origin, obfs: http_simple, obfsparam: download.windowsupdate.com}
   - {name: 🇭🇰 东落地-001-HGC-197-60000-65535, server: sghk03.nurobiz.com, port: 39617, type: ssr, cipher: rc4-md5, password: Xs5jbr, protocol: origin, obfs: http_simple, obfsparam: download.windowsupdate.com}
   - {name: 🇭🇰 东落地-003-HKT-05-1400-10000-091, server: hkt06.nurobiz.com, port: 39617, type: ssr, cipher: rc4-md5, password: Xs5jbr, protocol: origin, obfs: http_simple, obfsparam: download.windowsupdate.com}
